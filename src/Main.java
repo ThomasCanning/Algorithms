@@ -1,3 +1,4 @@
+import Search.JumpSearch;
 import Search.LinearSearch;
 
 public class Main {
@@ -17,6 +18,10 @@ public class Main {
         System.out.println(LinearSearch.Search(array, 84));
         End();
 
+        //runs jump search
+        Start();
+        System.out.println(JumpSearch.Search(array, 84));
+        End();
 
         //runs binary search
         Start();
